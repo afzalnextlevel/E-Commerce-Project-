@@ -1,0 +1,42 @@
+# Python
+
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual Environment
+venv/
+env/
+
+# Django
+*.sqlite3
+db.sqlite3
+/media/
+/staticfiles/
+/*.pyc
+
+# VSCode
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# macOS
+
+.DS_Store
+
+# Environment variables
+
+.env
+
+# Node (if using React or frontend tools)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
